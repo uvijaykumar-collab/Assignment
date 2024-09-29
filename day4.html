@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #box{
+        width: 400px;
+        height: 400px;
+        border:  1px solid;
+    }
+    #box:hover{
+        box-shadow: 0px 0px 2px 1px rgl(232, 219, 219);
+    }
+    #circle{
+        width: 200px;
+        height: 200px;
+        background-color: #e7eaed;
+        border-radius: 50%;
+        margin-left: 100px;
+        margin-top:  10px;
+    }
+    img{
+        margin: 35px ;
+    }
+    p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 24;
+        text-align: center;
+    }
+    span{
+        color: blue;
+        background-color: #e8f0fe ;
+        padding-top: 3px;
+        padding-right: 10px;
+        padding-bottom: 2px;
+        padding-left: 10px;
+        border-radius: 5px;
+        
+    }
+    #a{
+        color: #5f6368;
+        font-size: 15px;
+        margin-left: 20px;
+        margin-right: 30px;
+    }
+    a{
+        margin-left: 150px;
+        text-decoration: none;
+        color: blue;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #box2{
+        width: 400px;
+        height: 400px;
+        margin: 2px solid;
+    }
+    #container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+</style>
+<body>
+    <div id="container">
+    <div id="box">
+        <div id="circle">
+            <img src="https://lh3.googleusercontent.com/C_Ty0alIJNrRQz5pNFmgA1rsRnhZDj67eVCCHXoJFFot0FQEZydARPRKbBADyHQoA0_Dj6gLITCshiJq6C-H-QM_U2mJwJZVLOQPnwvCL2RerGMEhw0">
+        </div>
+        <p>The <span>safer</span> way to search</p>
+        <p id="a">Every day google blocks 25 billion spammy pages from search result</p>
+        <a href="">learn more</a>
+    </div>
+    <div id="box">
+        <div id="circle">
+            <img src="https://lh3.googleusercontent.com/8v_oGMOj9bgohn50RgLhJ8XGZ2kIUdr0RG4zCkIYnfjK24ORS0WFaTWmnzxXzagUg2fwAmDy1W_Y4oTtIacT2dhQzAqOy5H9Vg23Rq1oVnhUGtOynjY" width="130px">
+        </div>
+        <p>The <span>safer</span> way to email</p>
+        <p id="a">Every day google blocks 1.5 billion spammy pages from search result</p>
+        <a href="">learn more</a>
+    </div>
+    <div id="box">
+        <div id="circle">
+            <img src="https://lh3.googleusercontent.com/cS5nvr3r6Q16NoV6IuJLaauz7HNNRPnuHtsHleZ8du594H4EeiOjeNxV-Nq_w-qRA87TUedLQjTmqCG5s6jNZRp29n571FDWyditF-WJhfhQTY_73OM" width="130px">
+        </div>
+        <p>The <span>safer</span> way to browse</p>
+        <p id="a">Every day google blocks 25 billion spammy pages from search result</p>
+        <a href="">learn more</a>
+    </div>
+</div> 
+    
+</body>
+</html>
